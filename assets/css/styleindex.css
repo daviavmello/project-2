@@ -126,7 +126,7 @@ button.btn.sign-up:hover {
 .btn.user-icon {
     padding: 40px 0 0 0;
     float: right;
-    width: 3.5%;
+    width: 25px;
     text-decoration: none;
     cursor: pointer;
     text-decoration: none;
@@ -136,34 +136,17 @@ button.btn.sign-up:hover {
     padding: 40px 0 0 0;
     margin-right: 25px;
     float: right;
-    width: 3.5%;
+    width: 25px;
     text-decoration: none;
     cursor: pointer;
     text-decoration: none;
 }
-
-/* .btn.categories {
-    padding: 40px 20px 0 0;
-    float: right;
-    text-decoration: none;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.btn.categories a {
-    color: #111;
-}    
-
-.btn.categories:hover a {
-    text-decoration: none;
-}     */
 
 .btn.search-icon {
     padding: 40px 0 0 0;
     margin-right: 25px;
     float: right;
-    width: 3.5%;
+    width: 25px;
     text-decoration: none;
     cursor: pointer;
     text-decoration: none;
@@ -301,13 +284,6 @@ form {
     padding-top: 40px;
 }
 
-button.btn.btn-form {
-    text-align: left;
-    padding-left: 0;
-    padding-right: 5px;
-    color: #5CAE9D;
-}
-
 input[type=text], select, textarea, #message {
     width: 100%;
     padding: 12px;
@@ -385,4 +361,25 @@ a.fa.fa-facebook:hover, a.fa.fa-instagram:hover, a.fa.fa-pinterest:hover {
 .center p {
     font-family: inherit;
     font-size: 14px;
+}
+
+
+/* signup.html */
+
+.signup-box {
+    padding: 60px 15px 0;
+    text-align: center;
+}
+
+#signup-btn {
+    padding: 60px 0;
+}
+
+#h4-signup {
+    padding: 60px 0;
+    line-height: 1.6;
+}
+
+#illustration img {
+    margin-top: 80px;
 }
