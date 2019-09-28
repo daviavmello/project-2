@@ -383,3 +383,32 @@ a.fa.fa-facebook:hover, a.fa.fa-instagram:hover, a.fa.fa-pinterest:hover {
 #illustration img {
     margin-top: 80px;
 }
+
+#condition-input {
+    width: 100%;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: left;
+    color: #989898;
+    border-radius: 0;
+}
+
+#condition-input::after {
+    color: #989898;
+    margin-top: 80px;
+}
+
+select#condition-input {
+    background-color: white;
+    border: none;
+}

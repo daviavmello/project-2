@@ -40,35 +40,41 @@
 
         </div>
 
-
         <div class="row">
             <div class="col-6 contact-form" id="contact">
-                <h2>Log In</h2>
-                <form>
-                    <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="Username">
+                <h2>What phone would you like to swap?</h2>
+                <form class="post">
 
-                    <label for="password"></label>
-                    <input type="text" id="password" name="name" placeholder="Password">
+                    <label for="brand"></label>
+                    <input type="text" id="brand-input" placeholder="Brand">
+
+                    <label for="model"></label>
+                    <input type="text" id="model-input" placeholder="Model">
+
+                    <select id="condition-input">
+                              <option selected>Condition</option>
+                              <option value="pristine" href="#">Pristine</option>
+                              <option value="great" href="#">Great</option>
+                              <option value="good" href="#">Good</option>
+                              <option value="fair" href="#">Fair</option>
+                    </select>
+
+                    <label for="imei"></label>
+                    <input type="text" id="imei" placeholder="IMEI Number">
 
                     <div class="row">
-                        <button class="btn see-more">SIGN IN</button>
+                    <button class="btn sign-up" href="#about">POST</button>                    
                     </div>
 
                 </form>
             </div>
 
-            <div class="col-6 signup-box">
-                <h2>Sign Up</h2>
-                <h4 id="h4-signup">Is this your first time? Would you like to try it again? Sign right up or log in as guest to swap today!<br>It's 100% free!</h>
-
-                <div id="signup-btn">
-                    <button class="btn see-more">SIGN UP</button>
-                    <button class="btn sign-up" href="#about">CONTINUE AS GUEST</button>
-                </div>
+            <div class="col-6" id="illustration">
+                <img src="assets/images/illustration.svg" alt="illustration.svg">
             </div>
 
         </div>
+
 
         <div class="footer">
             <div class="center">
@@ -79,6 +85,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
