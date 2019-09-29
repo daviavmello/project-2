@@ -284,7 +284,7 @@ form {
     padding-top: 40px;
 }
 
-input[type=text], select, textarea, #message {
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     font-family: inherit;
@@ -300,7 +300,7 @@ input[type=text], select, textarea, #message {
     resize: vertical;
 }
 
-textarea#message {
+textarea#password {
     padding-top: 0;
 }
 
@@ -411,4 +411,44 @@ a.fa.fa-facebook:hover, a.fa.fa-instagram:hover, a.fa.fa-pinterest:hover {
 select#condition-input {
     background-color: white;
     border: none;
+}
+
+/* Products Page */
+
+.header {
+    margin: 50px auto;
+    background: #111;
+} 
+
+#logo-header {
+    width: 400px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 40px;
+    border-radius: 0;
+}
+
+.phone {
+    object-fit: cover;
+    height: 400px;
+}
+
+#h2-header {
+    color: #111;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.col-4.hovereffect {
+    margin-top: 40px;
+}
+
+.h4-product {
+    color:#fff;
+    opacity: 0.7;
+    padding-top: 15px;
 }
